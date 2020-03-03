@@ -8,7 +8,7 @@ import PIL.Image
 tf.InteractiveSession()
 
 # Import official CelebA-HQ networks.
-path = os.path.join(os.path.expanduser("~"),
+path = os.path.join(os.path.expanduser("/"),
                     "networks",
                     "karras2018iclr-celebahq-1024x1024.pkl")
 
